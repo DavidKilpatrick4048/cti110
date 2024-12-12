@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>David Kilpatrick</title>
+    <link rel="icon" type="image/png" href="art/WoW_icon.png.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        form {
+    background-color: rgb(79, 175, 14);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CTI-110-0902 Final Project Website</h1>
+        <p>Navigation Links:</p>
+        <a href="home.html" class="navbutton"><button>Home</button></a>
+        <a href="About.html" class="navbutton"><button>About Me</button></a>
+        <a href="characters.html" class="navbutton"><button>Warcraft Characters</button></a>
+        <a href="locales.html" class="navbutton"><button>Warcraft Locations</button></a>
+        <a href="https://github.com/DavidKilpatrick4048/cti110" target="_blank" class="navbutton"><button>GitHub</button></a>
+    </header>
+            <h2>Warcraft Characters</h2>
+            <p>Reference the Table below for notable characters within the Warcraft Universe</p>
+            <table>
+                <table border="8">
+                      <tr>
+                      <th>Photo</th>
+                      <th>Name</th>
+                      <th>Brief Understanding</th>
+                   </tr>
+                   <tr>
+                      <td><img src="art/thrall.jpg" width="300"></td>
+                      <td>Thrall</td>
+                      <td>Also known as Go’el, is a central character in World of Warcraft, a heroic orc raised as a slave by humans before reclaiming his heritage and becoming a pivotal figure in the Horde. As a shaman and warrior, he led the orcs to freedom, established the city of Orgrimmar, and served as Warchief of the Horde. Thrall is deeply committed to balance and peace, often acting as a mediator during conflicts between the Horde and Alliance. He stepped down as Warchief to focus on spiritual guidance and played a critical role in defeating major threats like Deathwing and the Burning Legion. His story is one of resilience, leadership, and the pursuit of unity amidst war and chaos.</td>
+                   </tr>
+                   <tr>
+                      <td><img src="art/jaina.jpg" width="300"></td>
+                      <td>Jaina Proudmoore</td>
+                      <td>A powerful mage and one of the most prominent leaders of the Alliance in World of Warcraft. As the ruler of Kul Tiras, she plays a vital role in uniting her people and leading them through times of war and conflict. Once a strong advocate for peace between the Horde and Alliance, her perspective hardened after the destruction of Theramore by the Horde. Despite her grief and anger, she often finds herself torn between vengeance and her innate desire for diplomacy. Jaina's story is one of resilience, leadership, and the struggle to balance personal loss with the responsibilities of protecting Azeroth.</td>
+                   </tr>
+                   <tr>
+                      <td><img src="art/slyvanas.jpg" width="300"></td>
+                      <td>Sylvanas Windrunner</td>
+                      <td>The Banshee Queen, after her death at the hands of Arthas Menethil, who transformed her into an undead servant. Breaking free from his control, she became the leader of the Forsaken, the undead faction within the Horde, and sought vengeance against Arthas and a place for her people. Her quest for power and survival led her to controversial actions, including burning Teldrassil and making pacts with the Jailer, a cosmic force of death. Sylvanas’s story is one of tragedy, defiance, and moral ambiguity, as she oscillates between being a savior to her people and a ruthless, divisive figure. Ultimately, her choices challenge the boundaries of heroism and villainy in Azeroth’s history.</td>
+                   </tr>
+                   <tr>
+                      <td><img src="art/arthas.jpg" width="300"></td>
+                      <td>Arthas Menethil</td>
+                      <td>A prince of Lordaeron who sought to protect his people but ultimately fell to darkness, becoming the infamous Lich King. His downfall began with his obsession to stop the Scourge, leading him to wield the cursed blade Frostmourne, which consumed his soul. Arthas slaughtered his own people in Stratholme, murdered his father, and merged with the Lich King, gaining dominion over the undead. As the Lich King, he sought to spread death across Azeroth, becoming one of the most iconic villains in World of Warcraft. His story is a tragic tale of good intentions corrupted by power, culminating in his defeat during the Wrath of the Lich King expansion.</td>
+                   </tr>
+                   <tr>
+                      <td><img src="art/anduin.jpg" width="300"></td>
+                      <td>Anduin Wrynn</td>
+                      <td>The young and idealistic King of Stormwind in World of Warcraft, known for his commitment to peace and diplomacy. As the son of King Varian Wrynn, he initially struggled with the weight of leadership but grew into a wise and compassionate ruler. Anduin is deeply connected to the Light, wielding its power as a priest to heal and inspire his allies. Despite his peaceful nature, he has led the Alliance in pivotal battles, including against the Horde during the Fourth War. His journey reflects the challenges of leadership, balancing hope and conviction in a war-torn world.</td>
+                   </tr>
+                      <tr>
+                      <td><img src="art/illidan.jpg" width="300"></td>
+                      <td>Illidan Stormrage</td>
+                      <td>Known as the Betrayer, is a pivotal and complex figure in World of Warcraft. A night elf and one of the first demon hunters, he consumed fel energy to gain immense power, often walking the line between heroism and villainy. He was imprisoned for millennia for his reckless actions during the War of the Ancients but later played a critical role in fighting the Burning Legion. Illidan's ultimate goal was to protect Azeroth, though his methods were often ruthless and misunderstood. His story is one of sacrifice and redemption, culminating in his pivotal role as the jailer of Sargeras in the Legion expansion.</td>
+                   </tr>
+                </table>
+                <br>
+                <br>
+                <form>
+                    <h2>Character Voting</h2>
+                    
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName"><br>
+                    
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName"><br>
+                    
+                    <label for="favorite">Select for your favorite character:</label>
+                    <select id="favorite" name="favorite">
+                      <option value="thrall">Thrall</option>
+                      <option value="jaina">Jaina Proudmoore</option>
+                      <option value="sylvanas">Slyvanas Windrunner</option>
+                      <option value="arthas">Arthas Menethil</option>
+                      <option value="anduin">Anduin Wrynn</option>
+                      <option value="illidan">Illidan Stormrage</option>
+                    </select><br>
+                                   
+                     <textarea id="comment" placeholder="Give a reason why for your selection:" name="comment" rows="4" cols="25"></textarea><br>
+                    
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                  </form>            
+    <footer>
+        <p>2024 CTI-110-0902</p>
+        <a href="mailto:kilpatrd4048@student.faytechcc.edu">Contact Me</a>
+    </footer>
+</body>
+</html>
